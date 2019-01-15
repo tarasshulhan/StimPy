@@ -1,0 +1,38 @@
+<meta charset="utf-8"/>
+<script>
+    var imageFile = "https://github.com/tarasshulhan/PythonSoftServe/blob/master/Project2/data.json";
+	var i = 0; // Start point
+	var time = 1000;
+	var images;
+
+    $.get(imageFile,function(data){
+        images = JSON.parse(data);
+    console.log(images);
+    //function getImg(){
+        //read JSON file with image names
+        //convert to array
+    //}
+    
+    //images = getImg();
+
+
+
+
+	//Change Image
+	//function changeImg(){
+		//document.slide.src = images[i];
+
+		//if(i < images.length - 1){
+		//	i++;
+		//} else {
+		//	i = 0;
+		//}
+
+		//setTimeout("changeImg()", time);
+	//}
+
+	//window.onload = changeImg;
+
+</script>
+
+<img name="slide" width="400" height="200">
